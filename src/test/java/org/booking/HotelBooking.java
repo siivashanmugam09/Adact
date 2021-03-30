@@ -25,7 +25,7 @@ public static void main(String[] args) throws AWTException {
 	r.keyRelease(KeyEvent.VK_CONTROL);
 	r.keyRelease(KeyEvent.VK_A);
 	r.keyPress(KeyEvent.VK_BACK_SPACE);
-	type(p.getCheckin(), "28/04/2021");
+	type(p.getCheckin(), "28/04/202");
 	toClick(p.getCheckout());
 	r.keyPress(KeyEvent.VK_CONTROL);
 	r.keyPress(KeyEvent.VK_A);
