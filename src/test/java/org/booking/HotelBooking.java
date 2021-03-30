@@ -31,6 +31,7 @@ public static void main(String[] args) throws AWTException {
 	r.keyPress(KeyEvent.VK_A);
 	r.keyRelease(KeyEvent.VK_CONTROL);
 	r.keyRelease(KeyEvent.VK_A);
+	
 	r.keyPress(KeyEvent.VK_BACK_SPACE);
 	type(p.getCheckout(), "30/04/2021");
 	selectIndex(p.getAdult(), 1);

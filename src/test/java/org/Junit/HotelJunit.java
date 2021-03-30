@@ -32,6 +32,7 @@ public class HotelJunit extends BaseClass {
 	public void Quit() {
 		driver.quit();
 	}
+
 	@Test
 	public void tc1() throws AWTException {
 	
@@ -39,6 +40,7 @@ public class HotelJunit extends BaseClass {
 	type(p.getUserid(), "siva090195");
 	String value = enterdTxt(p.getUserid());
 	Assert.assertTrue("UseridTrue", value.contains("siva"));
+//	Assert.asserte
 	type(p.getPass(), "siva090195");
 	toClick(p.getBtnlogin());
 	selectIndex(p.getLocation(), 5);
